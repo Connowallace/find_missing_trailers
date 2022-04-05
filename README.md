@@ -6,3 +6,6 @@ Last 48 hours departs pulled from GLS shipping reports. Cleaned by an excel spre
 Python script returns a csv of trailers that are not on the yard, and have not departed in the last 48 hours.
 
 These spreadsheets and script have turned a 1-2 hour task into a 15 minute task.
+
+*Python Script note:
+The python script reuses the same variable names through different fuctions. This made the refactoring simple. There are no scoping issues.
